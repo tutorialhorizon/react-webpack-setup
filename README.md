@@ -1,7 +1,9 @@
 React Kit
 ---
 
-A example application that watches your React jsx files, compiles them and then bundles them using webpack
+A example application that watches your React jsx files, compiles them and then bundles them using webpack.
+
+This project uses
 
 - Webpack
 - React
