@@ -10,3 +10,19 @@ This project uses
 - Grunt tasks to build and watch react and keep the nodeserver running using nodemon
 - Preconfigured settings so that react shows up in your chrome dev tools
 - A basic nodejs server based on expressjs 4 that serves your static html pages
+
+----
+
+THIS BRANCH
+---
+In this branch you find the code to use React web components with backbonejs models.
+
+To run the project, do the following
+
+```sh
+sudo npm install -g grunt-cli
+npm install
+npm run dev
+```
+
+The open `localhost:3000/notes.html` in your browser.

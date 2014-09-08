@@ -5,6 +5,7 @@ module.exports = {
     entry: {
         index: './grunt/webpack_entries/index.js',
         anotherPage: './grunt/webpack_entries/anotherPage.js',
+        notes: './grunt/webpack_entries/notes.js',
     },
     output: {
         path: path.join(__dirname,'../public/js/build'),
