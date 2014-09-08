@@ -25,4 +25,4 @@ npm install
 npm run dev
 ```
 
-The open `localhost:3000/notes.html` in your browser.
+Then open `localhost:3000/notes.html` in your browser and have some fun.
