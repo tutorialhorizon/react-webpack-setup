@@ -3,7 +3,33 @@
  */
 
 var React = require('react'),
-	Hello = require('../common/Hello');
+	D3Tree = require('./D3Tree'),
+	treeData = [
+	  {
+	    "name": "Top Level",
+	    "parent": "null",
+	    "children": [
+	      {
+	        "name": "Level 2: A",
+	        "parent": "Top Level",
+	        "children": [
+	          {
+	            "name": "Son of A",
+	            "parent": "Level 2: A"
+	          },
+	          {
+	            "name": "Daughter of A",
+	            "parent": "Level 2: A"
+	          }
+	        ]
+	      },
+	      {
+	        "name": "Level 2: B",
+	        "parent": "Top Level"
+	      }
+	    ]
+	  }
+	];
 
 var Page = React.createClass({
 
@@ -11,7 +37,7 @@ var Page = React.createClass({
 
 		return (
 			<div>
-					<Hello messageText="Index Page" />
+				<D3Tree treeData={treeData} />
 			</div>
 		);
 		
