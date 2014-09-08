@@ -10,12 +10,12 @@ var D3Tree = React.createClass({
   componentDidMount: function(){
     var mountNode = this.getDOMNode();
 
-    // Render the tree usng d3
+    // Render the tree usng d3 after first component mount
     renderTree(this.props.treeData, mountNode);
   },
 
   shouldComponentUpdate: function(nextProps, nextState){
-    // Delegate rendering the node to a d3 function
+    // Delegate rendering the tree to a d3 function on prop change
     renderTree(this.props.treeData, this.getDOMNode());
 
     // Do not allow react to render the component on prop change
@@ -23,6 +23,8 @@ var D3Tree = React.createClass({
   },
 
   render: function() {
+
+    // Render a blank svg node
     return (
       <svg></svg>
     );

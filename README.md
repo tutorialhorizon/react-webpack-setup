@@ -15,7 +15,7 @@ This project uses
 
 THIS BRANCH
 ---
-In this branch you find the code that renders a d3 tree as a react component.
+In this branch you find the code that renders a d3 tree as a react component. The article for this project can be read [here](http://javascript.tutorialhorizon.com/2014/09/08/render-a-d3js-tree-as-a-react-component/).
 
 To run the project, do the following
 
