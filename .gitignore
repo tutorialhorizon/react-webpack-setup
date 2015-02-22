@@ -21,4 +21,9 @@ build
 *.jpg
 *.png
 *.jpeg
-*.gi
+*.gif
+
+.sass-cache
+
+/public/assets
+/public/stylesheets

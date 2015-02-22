@@ -1,12 +1,21 @@
 <html>
   <head>
-    <title>Another Page</title>
+    <script src="https://cdn.polyfill.io/v1/polyfill.min.js"></script>
+    <title>AnotherPage</title>
+    <!--[if lt IE 9]>
+      <script>
+        (function(){
+          var noop = function(){};
+          window.console = window.console || {log:noop,warn:noop,error:noop,dir:noop};
+        }());
+      </script>
+    <![endif]-->
   </head>
 
   <body>
-
   </body>
 
-  <script src="js/build/bundle-anotherPage.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/anotherPage.js"></script>
 
 </html>

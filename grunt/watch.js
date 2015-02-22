@@ -1,6 +1,6 @@
 module.exports = {
-	scripts: {
-		files: ['public/js/**/*.jsx', 'public/js/**/*.js'],
-		tasks: ['react', 'webpack']
-	}
+  scripts: {
+    files: ['client/stylesheets/**/*.scss', 'client/stylesheets/**/*.css'],
+    tasks: ['sass']
+  }
 };
