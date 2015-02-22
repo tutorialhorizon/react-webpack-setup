@@ -8,8 +8,10 @@ Pull requests are welcome.
 ---
 
 #### Running the project
+```sh
 npm install
 npm run dev
+```
 
 ---
 #### Bundled goodies
