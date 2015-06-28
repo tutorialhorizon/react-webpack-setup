@@ -8,7 +8,7 @@ var Index = React.createClass({
 
 		return (
 			<div>
-					<Hello messageText="Index Page" />
+					<Hello messageText={"Index Page " + a} />
 			</div>
 		);
 

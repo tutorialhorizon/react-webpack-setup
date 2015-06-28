@@ -17,7 +17,7 @@ var plugins = [
 
 var webpackModules = {
   loaders: [
-    { jsx: /\.js$/, loader: 'jsx-loader' } // loaders can take parameters as a querystring
+    { jsx: /\.js$/, exclude: /node_modules/, loader: "babel-loader" } // loaders can take parameters as a querystring
   ]
 };
 
