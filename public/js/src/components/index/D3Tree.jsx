@@ -16,7 +16,7 @@ var D3Tree = React.createClass({
 
   shouldComponentUpdate: function(nextProps, nextState){
     // Delegate rendering the tree to a d3 function on prop change
-    renderTree(this.props.treeData, this.getDOMNode());
+    renderTree(nextProps.treeData, this.getDOMNode());
 
     // Do not allow react to render the component on prop change
     return false;
